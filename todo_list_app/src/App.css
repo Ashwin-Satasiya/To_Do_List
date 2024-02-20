@@ -1,0 +1,49 @@
+.todoMain-container {
+  border: 3px solid rgb(192, 175, 175);
+  background-color: rgb(201, 233, 233);
+  width: 75%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px 15px 50px 15px;
+  border-radius: 8px;
+  box-shadow: 4px 8px 10px rgb(172, 174, 208);
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700 !important;
+  font-size: 45px !important;
+  margin-bottom: 20px !important;
+}
+
+input {
+  width: 100%;
+}
+
+.items-container {
+  text-align: left;
+}
+
+.for-button {
+  width: auto;
+}
+
+.for-row {
+  margin: 10px 5px;
+}
+
+@media screen and (max-width: 650px) {
+  .todoMain-container {
+    width: 100% !important;
+  }
+
+  .date-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .date-input[type="date"] {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+  }
+}
